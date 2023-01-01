@@ -1,0 +1,39 @@
+1. 	What is Emmet?
+
+Emmet is a free add-on for your text editor. It allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, developers type less, they save both on keystrokes and time
+
+2.	Difference between a Library and Framework?
+      	
+A framework inverts the control of the program. It tells the developer what they need. A library doesn’t. The programmer calls the library where and when they need it 
+
+3.	What is CDN? Why do we use it?
+
+A CDN is a network of servers that distributes content from an origin server throughout the world by caching content close to where each end user is accessing the internet via a web-enabled device
+
+CDNs can help protect a site by providing TLS and/or SSL certificates that ensure a high standard of authentication and encryption. In addition, CDNs can help protect your websites and apps through a Web Application Firewall (WAF)
+
+4.	Why is React known as React?
+
+React was developed for applications (Facebook) that have constantly changing data. Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app’s data, the view should “react” or change with those user events. User events being mouse clicks, typing, submitting a form.
+
+5. 	What is crossorigin in script tag?
+
+The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains
+
+
+6.	What is diference between React and ReactDOM?
+
+React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser
+
+
+7.	What is difference between react.development.js and      react.production.js files via CDN?
+
+The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.
+
+8. 	What is the difference between async and defer?
+
+Async will allow the script to run as soon as it is loaded, without blocking any other elements on the page 
+
+Defer will execute the script only after the page has finished loading.
+
+
