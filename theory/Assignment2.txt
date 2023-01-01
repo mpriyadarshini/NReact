@@ -1,0 +1,11 @@
+1. What is `NPM`?
+
+NPM is world's largest software registry. Open source developers use npm to share and borrow packages.
+
+2. What is `Parcel/Webpack`? Why do we need it?
+
+Parcel is a bundler used mostly for js or ts code that helps you to minify, clean and make your code compact so that it becomes easier to send request or receive response
+
+3. What is `.parcel-cache`?
+
+It stores information about your project when your parcel builds it, so that when it rebuilds, it doesnt have to re-parse and re-analyze everything from scratch. Thats the reason why parcel is fast in development mode
