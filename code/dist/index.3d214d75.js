@@ -2935,27 +2935,27 @@ const container2 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         }, void 0, false, {
             fileName: "index.js",
             lineNumber: 40,
-            columnNumber: 9
+            columnNumber: 5
         }, undefined),
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
             children: "Header 2"
         }, void 0, false, {
             fileName: "index.js",
             lineNumber: 41,
-            columnNumber: 9
+            columnNumber: 5
         }, undefined),
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
             children: "Header 3"
         }, void 0, false, {
             fileName: "index.js",
             lineNumber: 42,
-            columnNumber: 9
+            columnNumber: 5
         }, undefined)
     ]
 }, void 0, true, {
     fileName: "index.js",
     lineNumber: 39,
-    columnNumber: 5
+    columnNumber: 3
 }, undefined);
 const HeaderComponent = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2965,43 +2965,103 @@ const HeaderComponent = ()=>{
             }, void 0, false, {
                 fileName: "index.js",
                 lineNumber: 49,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: "Header 2"
             }, void 0, false, {
                 fileName: "index.js",
                 lineNumber: 50,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: "Header 3"
             }, void 0, false, {
                 fileName: "index.js",
                 lineNumber: 51,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "index.js",
         lineNumber: 48,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = HeaderComponent;
+const HeaderComponentLogo = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "./image/icon.png"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 61,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "index.js",
+                lineNumber: 59,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 65,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "index.js",
+                lineNumber: 63,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "./image/user.png"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "index.js",
+                lineNumber: 67,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 58,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = HeaderComponentLogo;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(container) //for createElement
-;
-root.render(container2) //for JSX Element
-;
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponent, {}, void 0, false, {
+// root.render(container)//for createElement
+// root.render(container2)//for JSX Element
+// root.render(<HeaderComponent/>)//for functional component
+//create a header component from scratch using functional components with
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponentLogo, {}, void 0, false, {
     fileName: "index.js",
-    lineNumber: 60,
+    lineNumber: 82,
     columnNumber: 13
-}, undefined)) //for functional component
-;
-var _c;
+}, undefined)); //for functional component
+var _c, _c1;
 $RefreshReg$(_c, "HeaderComponent");
+$RefreshReg$(_c1, "HeaderComponentLogo");
 
   $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {

@@ -9,3 +9,67 @@ Parcel is a bundler used mostly for js or ts code that helps you to minify, clea
 3. What is `.parcel-cache`?
 
 It stores information about your project when your parcel builds it, so that when it rebuilds, it doesnt have to re-parse and re-analyze everything from scratch. Thats the reason why parcel is fast in development mode
+
+4. What is npx?
+
+NPX stands for Node Package Executor and it comes with npm when npm above 5.2 version is installed, then npx will be automatically installed. It is an npm package runner that can execute any package that you want from npm registry without even installing that package.
+
+5. What is difference between `dependencies` vs `devDependencies`?
+
+devDependencies are modules which are only required during development while devDependencies are modules which are required at runtime.To save a dependency as a devDependency on installation we need to do an npm install --save-dev , instead of just an npm install --save.
+
+6. What is Tree Shaking?
+
+Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.
+
+7. What is HMR?
+
+Hot Module Replacement exchanges, adds or removes modules while an application is running, without a full reload
+
+ --> retain application state which is lost during a full reload
+ --> save valuable development time by only updating whats changed
+
+8. List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words
+
+The superpowers of parcel are 
+
+a. It enables HMR which exchanges, adds or removes modules while an application is running without a full reload
+b. Tree Shaking which means it unwanted code
+c. It has a development server built-in. The development server will automatically rebuild your app as you change files 
+d. it minifies the code and act as a file watcher and does caching and image optimisation
+
+9. What is `.gitignore`? What should we add and not add into it?
+
+.gitignore file is a text file which tells Git which files or folders to ignore in a project.
+We should add files(which can be generated online like node_modules) to gitignore. 
+
+10. What is the difference between `package.json` and `package-lock.json`
+
+package.json is a file which is used to install multiple packages in project.
+
+package-lock.json file is created for locking the dependencies with the installed version.
+It allows future devs to install the same dependencies in the project.
+
+11. Why should I not modify `package-lock.json`?
+
+Because the file is used by needs to remain identical for all developers.It maintains the exact version of each dependency
+
+12. What is `node_modules` ? Is it a good idea to push that on git?
+
+Node module contains libraries downloaded from npm and its like a database for packages.
+
+We should not push that to git as it can be regenerated online by downloading from npm
+
+13. What is dist folder?
+
+The /dist folder contains the minimized version of the source code. The code present in the /dist folder is actually the code which is used on production web applications. Along with the minified code, the /dist folder also comprises of all the compiled modules that may or may not be used with other systems.
+
+14. What is `browserlists`?
+
+Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file
+
+15. What is the diff between ^ - caret and ~ - tilda?
+
+
+

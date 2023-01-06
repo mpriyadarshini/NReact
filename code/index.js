@@ -36,25 +36,47 @@ const container = React.createElement(
 );
 
 const container2 = (
-    <div>
-        <h1>Header 1</h1>
-        <h1>Header 2</h1>
-        <h1>Header 3</h1>
-    </div>
-)
+  <div>
+    <h1>Header 1</h1>
+    <h1>Header 2</h1>
+    <h1>Header 3</h1>
+  </div>
+);
 
 const HeaderComponent = () => {
-    return(
-        <div>
-            <h1>Header 1</h1>
-            <h1>Header 2</h1>
-            <h1>Header 3</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Header 1</h1>
+      <h1>Header 2</h1>
+      <h1>Header 3</h1>
+    </div>
+  );
+};
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const HeaderComponentLogo = () => {
+  return (
+    <div className="header">
+      <div>
+        {" "}
+        <img src="./image/icon.png"></img>
+      </div>
+      <div>
+        {" "}
+        <input type="text"></input>
+      </div>
+      <div>
+        {" "}
+        <img src="./image/user.png"></img>
+      </div>
+    </div>
+  );
+};
 
-root.render(container)//for createElement
-root.render(container2)//for JSX Element
-root.render(<HeaderComponent/>)//for functional component
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(container)//for createElement
+// root.render(container2)//for JSX Element
+// root.render(<HeaderComponent/>)//for functional component
+
+//create a header component from scratch using functional components with
+root.render(<HeaderComponentLogo />); //for functional component
