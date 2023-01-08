@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Footer from "./Footer";
+import Header from "./Header";
+import Body from "./Body";
 
 const container = React.createElement(
   "div",
@@ -43,15 +46,33 @@ const container2 = (
   </div>
 );
 
-const HeaderComponent = () => {
-  return (
-    <div>
-      <h1>Header 1</h1>
-      <h1>Header 2</h1>
-      <h1>Header 3</h1>
-    </div>
-  );
-};
+
+
+
+const burgerKing = {
+  name:"Burger King",
+  image:"https://static.dezeen.com/uploads/2021/01/burger-king-logo-rebrand-bk-jkr_logo_dezeen_2364_col_0.jpg",
+  cuisines:["Burger","American"],
+  rating:"4.2"
+}
+
+
+
+
+
+
+
+
+
+const AppLayout = () => {
+  return(
+    <>
+    <Header/>
+    <Body/>
+    <Footer/>
+    </>
+  )
+}
 
 const HeaderComponentLogo = () => {
   return (
@@ -79,4 +100,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<HeaderComponent/>)//for functional component
 
 //create a header component from scratch using functional components with
-root.render(<HeaderComponentLogo />); //for functional component
+root.render(<AppLayout />); //for functional component
